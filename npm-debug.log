@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle ivybaby@1.0.0~prebuild: ivybaby@1.0.0
+6 silly lifecycle ivybaby@1.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle ivybaby@1.0.0~build: ivybaby@1.0.0
+8 verbose lifecycle ivybaby@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle ivybaby@1.0.0~build: PATH: E:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\workspace\largeScreen\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\TortoiseSVN\bin;E:\Program Files\nodejs\;E:\Program Files\Git\cmd;e:\Program Files\Java\jdk1.8.0_141\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;
+10 verbose lifecycle ivybaby@1.0.0~build: CWD: E:\workspace\largeScreen
+11 silly lifecycle ivybaby@1.0.0~build: Args: [ '/d /s /c', 'NODE_ENV=production webpack -p' ]
+12 silly lifecycle ivybaby@1.0.0~build: Returned: code: 1  signal: null
+13 info lifecycle ivybaby@1.0.0~build: Failed to exec build script
+14 verbose stack Error: ivybaby@1.0.0 build: `NODE_ENV=production webpack -p`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (E:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:279:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:192:7)
+14 verbose stack     at ChildProcess.<anonymous> (E:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:192:7)
+14 verbose stack     at maybeClose (internal/child_process.js:890:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid ivybaby@1.0.0
+16 verbose cwd E:\workspace\largeScreen
+17 error Windows_NT 10.0.16299
+18 error argv "E:\\Program Files\\nodejs\\node.exe" "E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+19 error node v7.6.0
+20 error npm  v4.1.2
+21 error code ELIFECYCLE
+22 error ivybaby@1.0.0 build: `NODE_ENV=production webpack -p`
+22 error Exit status 1
+23 error Failed at the ivybaby@1.0.0 build script 'NODE_ENV=production webpack -p'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the ivybaby package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     NODE_ENV=production webpack -p
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs ivybaby
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls ivybaby
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

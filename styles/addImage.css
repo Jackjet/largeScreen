@@ -1,0 +1,12 @@
+img{
+    border: 1px solid red;
+}
+#main{
+    border: 1px solid black;
+}
+.test{
+    border: 1px solid red;
+}
+div.max{
+    border: 1px solid black;
+}
